@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/../yuki/ctfile/db_init.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/../yuki/ctfile/gui.py" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/../yuki/ctfile/test.py" dialect="SQLite" />
+  </component>
+</project>
