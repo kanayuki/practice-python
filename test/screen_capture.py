@@ -17,9 +17,9 @@ def screen_PIL():
 
 # 调用windows API，速度快
 def screen_wim32api():
-    win32gui.
-    win32api.
-
+    # win32gui.
+    # win32api.
+    pass
 
 # 程序会打印窗口的hwnd和title，有了title就可以进行截图了。
 def print_hwnd():
@@ -39,7 +39,7 @@ def print_hwnd():
 # 需注意的是，窗口最小化时无法获取截图。
 # 首先需要获取窗口的句柄。
 def screen_QT():
-    hwnd = win32gui.FindWindow(None, '神经网络练习.nb * - Wolfram Mathematica 13.0')
+    hwnd = win32gui.FindWindow(None, 'Yuki 1.0.0')
     screen = QApplication.primaryScreen()
     img = screen.grabWindow(hwnd).toImage()
     img.save("screenshot.jpg")
@@ -57,5 +57,5 @@ def screen_pyautogui():
 if __name__ == '__main__':
     # screen_PIL()
     # print_hwnd()
-    # screen_QT()
-    screen_pyautogui()
+    screen_QT()
+    # screen_pyautogui()
